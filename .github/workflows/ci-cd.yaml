@@ -1,0 +1,10 @@
+name: CI/CD pipeline
+
+on:
+  push:
+    branches: ['master','dev','test']
+    workflow_dispatch:
+
+jobs:
+  
+  
